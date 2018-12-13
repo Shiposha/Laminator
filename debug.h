@@ -1,6 +1,7 @@
 #ifndef DEBUG_H
 #define DEBUG_H
 
+<<<<<<< HEAD
   #ifdef Debug
     void SerialRead () 
     {
@@ -22,6 +23,8 @@
     }
   #endif
 
+=======
+>>>>>>> 4d38d600be2b4a6f904cf9f4f1316ba4fcc620af
 void debugVarPrint() 
 {
   Serial.print ("TempReacheState = ");
