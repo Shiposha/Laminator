@@ -405,29 +405,6 @@ void pageMotor()
       lcd.print(MotorSetup[3].Value, 0); 
     }
 
-<<<<<<< HEAD
-=======
 
-  #ifdef Debug
-  void SerialRead () 
-  {
-    switch (Serial.read()) 
-    {      
-      case 'w':
-        keyUp();
-        debugVarPrint();      
-        break;
-      case 's':
-        keyDown();
-        debugVarPrint();
-        break;
-      case 'a':
-        keySelect();
-        debugVarPrint();
-        break;
-    }
-  }
-  #endif
 
->>>>>>> 4d38d600be2b4a6f904cf9f4f1316ba4fcc620af
 #endif
